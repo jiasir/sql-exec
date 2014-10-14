@@ -31,7 +31,7 @@ sqlClient = config_file.get('sql', 'client')
 sqlLine = config_file.get('sql', 'line')
 
 logger.info('Getting logging section config settings except log_level')
-logLocation = config_file('logging', 'log_location')
+logLocation = config_file.get('logging', 'log_location')
 
 cmd = noflib()
 
