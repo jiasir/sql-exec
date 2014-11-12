@@ -58,7 +58,7 @@ def execute_sqlserver():
     pass
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     if sqlClient == 'mysql-client':
         execute_mysql()
 
